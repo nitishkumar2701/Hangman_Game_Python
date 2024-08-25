@@ -47,7 +47,7 @@ words = [
     "bigdata",
     "network",
     "syntax",
-    "version control",
+    "versioncontrol",
     "multithreading",
     "lambda",
     "tokenization",

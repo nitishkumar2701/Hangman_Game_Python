@@ -25,6 +25,7 @@ print(''.join(blankList))
 
 while(remainingLives < 6 and "_" in blankList):
     userinputLetter = input("\n \nChoose a letter :")
+    userinputLetter = userinputLetter.lower()
     if(userinputLetter in randomWordList):
         print("Keep Going Find the next letter")
         foundIndex = randomWordList.index(userinputLetter)
